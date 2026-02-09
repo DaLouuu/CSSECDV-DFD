@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 70,
-              "y": 20
+              "x": 60,
+              "y": 60
             },
             "size": {
               "width": 110,
@@ -136,8 +136,8 @@
           },
           {
             "position": {
-              "x": 400,
-              "y": 0
+              "x": 390,
+              "y": 40
             },
             "size": {
               "width": 100,
@@ -256,7 +256,7 @@
           },
           {
             "position": {
-              "x": 400,
+              "x": 390,
               "y": -290
             },
             "size": {
@@ -376,8 +376,8 @@
           },
           {
             "position": {
-              "x": 716,
-              "y": 20
+              "x": 706,
+              "y": 60
             },
             "size": {
               "width": 120,
@@ -545,8 +545,8 @@
             },
             "vertices": [
               {
-                "x": 290,
-                "y": 70
+                "x": 280,
+                "y": 110
               }
             ]
           },
@@ -597,8 +597,8 @@
             },
             "vertices": [
               {
-                "x": 290,
-                "y": 120
+                "x": 280,
+                "y": 160
               }
             ]
           },
@@ -649,12 +649,12 @@
             },
             "vertices": [
               {
-                "x": 210,
-                "y": 30
+                "x": 200,
+                "y": 70
               },
               {
-                "x": 290,
-                "y": -20
+                "x": 280,
+                "y": 20
               }
             ]
           },
@@ -696,7 +696,7 @@
             ],
             "id": "d50903a8-7765-4e1b-9fe4-91169d8ee4e2",
             "source": {
-              "x": 500,
+              "x": 490,
               "y": -240
             },
             "target": {
@@ -705,7 +705,7 @@
             },
             "vertices": [
               {
-                "x": 600,
+                "x": 590,
                 "y": -280
               }
             ]
@@ -757,7 +757,7 @@
             },
             "vertices": [
               {
-                "x": 600,
+                "x": 590,
                 "y": -210
               }
             ]
@@ -809,8 +809,8 @@
             },
             "vertices": [
               {
-                "x": 610,
-                "y": -10
+                "x": 600,
+                "y": 30
               }
             ]
           },
@@ -861,14 +861,14 @@
             },
             "vertices": [
               {
-                "x": 610,
-                "y": 100
+                "x": 600,
+                "y": 140
               }
             ]
           },
           {
             "position": {
-              "x": 716,
+              "x": 706,
               "y": -270
             },
             "size": {
@@ -1037,8 +1037,8 @@
             },
             "vertices": [
               {
-                "x": 290,
-                "y": 20
+                "x": 280,
+                "y": 60
               }
             ]
           },
@@ -1084,7 +1084,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "GenericTrust Boundary",
+              "name": "Generic Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -1092,7 +1092,7 @@
               "containedElements": []
             },
             "labels": [
-              "GenericTrust Boundary"
+              "Generic Trust Boundary"
             ],
             "id": "5e541b84-9d4d-4cde-b330-fd463189c521",
             "source": {
@@ -1105,10 +1105,56 @@
             },
             "vertices": [
               {
-                "x": 210,
-                "y": -260
+                "x": 340,
+                "y": -50
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 16,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Auth Verification",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Auth Verification"
+            ],
+            "id": "4847e931-1f27-4ea5-bf4b-90ad643d2224",
+            "source": {
+              "x": 440,
+              "y": 40
+            },
+            "target": {
+              "cell": "396479a6-8c5b-4e42-828e-b9bd2d318b85",
+              "port": "2d99d522-2854-4ccc-8283-edc8334ea81b"
+            }
           }
         ],
         "description": "Web Application Data Flow Diagram"
