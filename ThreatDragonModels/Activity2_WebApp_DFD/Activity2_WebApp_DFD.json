@@ -518,7 +518,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Insert Feedback Comments",
+              "name": "Insert \nFeedback \nComments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -532,7 +532,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Insert Feedback Comments"
+              "Insert \nFeedback \nComments"
             ],
             "id": "53798605-d9fc-4924-9bd8-b09189bd0079",
             "source": {
@@ -570,7 +570,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Feedback Comments Saved",
+              "name": "Feedback \nComments Saved",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -584,7 +584,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Feedback Comments Saved"
+              "Feedback \nComments Saved"
             ],
             "id": "d1bcdbfe-2867-4997-b21e-f3e1db2607a7",
             "source": {
@@ -622,7 +622,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User Sends User Credentials",
+              "name": "User Sends \nUser Credentials",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -636,7 +636,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "User Sends User Credentials"
+              "User Sends \nUser Credentials"
             ],
             "id": "90435808-d1e0-411e-971f-f77d2805eef4",
             "source": {
@@ -678,7 +678,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Verifies the Privilege",
+              "name": "Verifies \nthe Privilege",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -692,7 +692,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Verifies the Pr"
+              "Verifies \nthe Privilege"
             ],
             "id": "d50903a8-7765-4e1b-9fe4-91169d8ee4e2",
             "source": {
@@ -705,7 +705,7 @@
             },
             "vertices": [
               {
-                "x": 590,
+                "x": 610,
                 "y": -280
               }
             ]
@@ -782,7 +782,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Insert Query With Feedback Comments",
+              "name": "Insert Query With\n Feedback Comments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -796,7 +796,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Insert Query With Feedback Comments"
+              "Insert Query With\n Feedback Comments"
             ],
             "id": "113bb2aa-2110-4b86-9fb5-86d46d9f6fdf",
             "source": {
@@ -920,7 +920,7 @@
           },
           {
             "position": {
-              "x": 706,
+              "x": 746,
               "y": -270
             },
             "size": {
@@ -1062,7 +1062,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User Is Authenticated",
+              "name": "User Is \nAuthenticated",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1076,7 +1076,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "User Is Authenticated"
+              "User Is \nAuthenticated"
             ],
             "id": "504de086-7729-4a3c-bc06-99a4ef704ace",
             "source": {
@@ -1102,7 +1102,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Generic Trust Boundary",
+              "name": "Generic \nTrust \nBoundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -1110,7 +1110,7 @@
               "containedElements": []
             },
             "labels": [
-              "Generic Trust Boundary"
+              "Generic \nTrust \nBoundary"
             ],
             "id": "3a805fac-2336-40bc-b06a-e45a65d1099d",
             "source": {
@@ -1136,7 +1136,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Generic Trust Boundary",
+              "name": "Generic \nTrust \nBoundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -1144,7 +1144,7 @@
               "containedElements": []
             },
             "labels": [
-              "Generic Trust Boundary"
+              "Generic \nTrust \nBoundary"
             ],
             "id": "5e541b84-9d4d-4cde-b330-fd463189c521",
             "source": {
@@ -1182,7 +1182,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Auth Verification",
+              "name": "Auth\nVerification",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1196,7 +1196,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Auth Verification"
+              "Auth\nVerification"
             ],
             "id": "4847e931-1f27-4ea5-bf4b-90ad643d2224",
             "source": {
@@ -1222,7 +1222,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Generic Trust Boundary",
+              "name": "Generic \nTrust \nBoundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -1230,7 +1230,7 @@
               "containedElements": []
             },
             "labels": [
-              "Generic Trust Boundary"
+              "Generic \nTrust \nBoundary"
             ],
             "id": "c4bab16f-3d14-4dd9-a8e6-29bcc0328dc7",
             "source": {
@@ -1243,8 +1243,8 @@
             },
             "vertices": [
               {
-                "x": 620,
-                "y": -80
+                "x": 660,
+                "y": -70
               }
             ]
           }
