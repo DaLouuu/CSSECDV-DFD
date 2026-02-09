@@ -890,6 +890,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -973,7 +974,6 @@
               ]
             },
             "id": "9245c699-f0a4-4102-a988-7550b0af2749",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "LDAP",
@@ -1050,6 +1050,135 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
+              "name": "Generic Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Generic Trust Boundary"
+            ],
+            "id": "3a805fac-2336-40bc-b06a-e45a65d1099d",
+            "source": {
+              "x": 360,
+              "y": -180
+            },
+            "target": {
+              "x": 600,
+              "y": -170
+            },
+            "vertices": [
+              {
+                "x": 450,
+                "y": -130
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 15,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
               "name": "GenericTrust Boundary",
               "description": "",
               "isTrustBoundary": true,
@@ -1060,21 +1189,15 @@
             "labels": [
               "GenericTrust Boundary"
             ],
-            "id": "3a805fac-2336-40bc-b06a-e45a65d1099d",
+            "id": "5e541b84-9d4d-4cde-b330-fd463189c521",
             "source": {
-              "x": 360,
-              "y": -180
+              "x": 370,
+              "y": -260
             },
             "target": {
-              "x": 550,
-              "y": -190
-            },
-            "vertices": [
-              {
-                "x": 450,
-                "y": -130
-              }
-            ]
+              "x": 340,
+              "y": 100
+            }
           }
         ],
         "description": "Web Application Data Flow Diagram"
