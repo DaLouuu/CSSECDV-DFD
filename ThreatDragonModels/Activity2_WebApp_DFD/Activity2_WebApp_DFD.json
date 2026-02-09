@@ -376,7 +376,7 @@
           },
           {
             "position": {
-              "x": 706,
+              "x": 746,
               "y": 60
             },
             "size": {
@@ -782,7 +782,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Insert Query With\n Feedback Comments",
+              "name": "Insert \nQuery \nWith\n Feedback \nComments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -796,7 +796,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Insert Query With\n Feedback Comments"
+              "Insert \nQuery \nWith\n Feedback \nComments"
             ],
             "id": "113bb2aa-2110-4b86-9fb5-86d46d9f6fdf",
             "source": {
@@ -812,7 +812,17 @@
                 "x": 600,
                 "y": 30
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
